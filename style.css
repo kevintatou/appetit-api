@@ -1,0 +1,16 @@
+.iphone {
+  background: url("iphone.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 294px;
+  height: 597px;
+  margin: auto;
+  text-align: center;
+}
+
+.iframe {
+  margin-top: 20%;
+   width: 88.7%;
+   height: 78.2%;
+   border: 0;
+}

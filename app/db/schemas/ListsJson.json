@@ -1,0 +1,9 @@
+{
+"Title":  "Handlings lista på matseden veckan 18",
+"Description": "Lista på veckans ingridenser",
+"Step": {"1": {"Desc": "test", "Time": "6:00", "Picture": "url"}, "2": {"Desc": "test", "Time": "6:00", "Picture": "url"}},
+"Ingredients": {"Ingredient 1":{"amount": "test", "measurement": "test"},"Ingredient 2": {"amount": "test", "measurement": "test"}},
+"Categories": ["", "hej1"],
+"Tags": ["Potatis", "Grädde"],
+"Rating": "5"
+}

@@ -1,0 +1,21 @@
+Recipe Curls
+curl -H "Content-Type: application/json" http://localhost:5000/recipe/create -d @app/db/schemas/test.json -X POST
+curl -H "Content-Type: application/json" http://localhost:5000/recipe/update/5714d55e617a9bba0abbbd6b -d @update.json -X PUT
+curl -H "Content-Type: application/json" http://188.166.147.218:5000/recipes/5714d55e617a9bba0abbbd6b -d @update.json -X PUT
+curl -H "Content-Type: application/json" http://188.166.147.218:5000/recipe/create -d @test.json -X POST
+curl -H "Content-Type: application/json"  http://188.166.147.218:5000/recipe/update/5714d55e617a9bba0abbbd6b -d @update.json -X PUT
+curl "Content-Type: application/json" http://localhost:5000/recipe/delete/5714d55e617a9bba0abbbd6b -X DELETE
+
+Menu Curls
+curl -H "Content-Type: application/json" http://localhost:5000/menu/create -d @app/db/schemas/MenuJson.json -X POST
+
+curl -H "Content-Type: application/json" http://localhost:5000/menu/create -d @app/db/schemas/MenuJson.json -X POST
+
+User Curls
+curl -H "Content-Type: application/json" http://localhost:5000/user/create -d '{"Email": "test", "Password" : "test"}' -X POST
+curl -H "Content-Type: application/json" http://localhost:5000/user/ -d  -X GET
+
+
+List curls
+curl -H "Content-Type: application/json" http://localhost:5000/list/create -d '{"title": "test", "Ingredient": [{"name" : "test"}, {"name" : "Test", "checkbox" : "false", "amount" : "10", "measurement" : "grams"}]}' -X POST
+curl -H "Content-Type: application/json" http://localhost:5000/list/5731bbd7ae741f29e08c4524 -d  -X GET

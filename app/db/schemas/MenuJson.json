@@ -1,0 +1,12 @@
+{
+"Title":  "Vecka 18",
+"Description": "Matlista över vecka 18",
+"Recipes": {
+  "1":{"Recipe_name":"Tans Specialsoppa med Nnnuuuddleess", "Recipe_id":"5721b538e933402040f636d5"},
+  "2":{"Recipe_name":"Tan-Wook", "Recipe_id":"5721b587e933402040f636d6"}
+},
+"Tags": ["Tan", "Love Thai"],
+"Access": {"User_id":"57235705ae741f2268997ba1"},
+"Owner": {"User_id": "572356c0ae741f2268997ba0"},
+"Public": {"Public": "1"}
+}
